@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Introduçao ao DOM</title>
+</head>
+
+<body onload="estados()">
+    <div class="container">
+        <section>
+            <header>
+                <h1>Buscador de cidades por<br>Estados Brasileiros</h1>
+            </header>
+
+
+            <h2>Escolha o estado desejado: </h2>
+            <select name='estados' id='estados' onchange="cidades()"></select>
+
+            <h2>Escolha a cidade:</h2>
+            <select name='cidades' id='cidades'></select>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
